@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class CrossBrowserTestingScript {
 
 	WebDriver driver;
-
+//cross browser testing
 	@BeforeTest
 	@Parameters({ "browser" })
 	public void setup(String browser) throws Exception {
