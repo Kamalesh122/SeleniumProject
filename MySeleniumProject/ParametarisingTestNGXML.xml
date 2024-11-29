@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First Test">
+<test thread-count="5" name="First Test Class">
+	
+	<parameter name="URL" value="https://google.com"></parameter>
+	
+		<classes>
+			<class name="com.MySeleniumProject.Tests.FirstTestClass" />
+			<class name="com.MySeleniumProject.exploration.FourthTestClass" />
+			<class name="com.MySeleniumProject.Tests.ThirdTestClass" />
+
+		</classes>
+	</test> 
+	
+		<test thread-count="5" name="Fourth Test Class">
+			<parameter name="URL" value="testLevel.in"></parameter>
+		<classes>
+			<class name="com.MySeleniumProject.Tests.SecondTestClass" />
+		</classes>
+	</test>
+	
+</suite> 
+
+
